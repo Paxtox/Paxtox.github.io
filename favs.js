@@ -8,7 +8,7 @@ function showFavoritePokemon(favorites) {
            <img src="${element.image}" class="img">
            <div class="titulos">
               <h2>${element.name}</h2>
-              <h4>Type: ${element.types.join(", ")}</h4>
+              <h4>Type: ${element.types}</h4>
               <button class="remove-from-favs" data-pokemon='${JSON.stringify(element)}'>
                  remove from favs
               </button>
