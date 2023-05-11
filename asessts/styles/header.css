@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbdc05;
+    height: 10vh;
+}
+.titulo{
+    display: flex;
+    padding-left: 20px;
+}
+.h1{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.anchors{
+    padding-top: 40px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+}
+.section-main{
+    background-image: url(../images/pikachu.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+.h2-welcome{
+    display: inline;
+    position: relative;
+    left: 65%;
+    top: 10%;
+    font-size: 4vh;
+}
+.parrafo-home{
+    display: inline;
+    position: relative;
+    left: 49%;
+    top: 14%;
+}
+.button{
+    display: inline;
+    position: relative;
+    left: 39%;
+    top: 18%;
+    padding: 10px 22px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
